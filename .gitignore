@@ -1,0 +1,31 @@
+data/
+*.csv 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/ # Jupyter notebooks checkpoints
+.vscode/            # VS Code specific settings (optional, but often good to ignore workspace settings)
+data/               # Generally good to ignore large data files or sensitive data (though for this project,
+                    # you might commit 'cleaned_reviews.csv' if small enough and not sensitive).
+                    # For now, we'll keep data/ out of .gitignore so you can commit the cleaned CSV.
+                    # If data files become very large, you'd use Git LFS or similar.
+
+# Operating System Files
+.DS_Store           # macOS thumbnail/metadata files
+Thumbs.db           # Windows thumbnail cache files
+
+# Logs
+*.log
+log/
+
+# Environment variables
+.venv
