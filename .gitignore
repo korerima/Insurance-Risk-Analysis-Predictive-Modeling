@@ -1,7 +1,6 @@
 data/
 *.csv 
-"C:\Users\sami1\Documents\tenx\Insurance-Risk-Analysis-Predictive-Modeling\.dvc\cache\files\md5\bd\3de80d190de6d235c509a470a09f4a"
-C:\Users\sami1\Documents\tenx\Insurance-Risk-Analysis-Predictive-Modeling\.dvc\cache\files\md5\bd\3de80d190de6d235c509a470a09f4a
+
 # Python
 __pycache__/
 *.pyc

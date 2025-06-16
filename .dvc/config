@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = C:\Users\sami1\Documents\tenx\dvc-storage\insurance-risk
